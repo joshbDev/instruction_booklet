@@ -1,0 +1,20 @@
+.booklet{
+    width:759px;
+    height:60px;
+    background-color:#f0f0f0;
+    color: #005fad;
+    font-family:sans-serif;
+    padding:22px 0px 0px 30px;
+    font-size:1.7em;
+        cursor:pointer;
+    z-index:3;
+}
+.dynamicinstructions{
+	            position:absolute;
+}
+.booklet:hover{	background-color: #005fad;
+	color:white;
+}
+#instphoto{
+	display:none;
+}
