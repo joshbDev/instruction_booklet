@@ -1,17 +1,25 @@
 $('document').ready(function(){
 	$("#dynamicinstructions").on('click','#inst1',function(){
+	$('.booklet').removeClass('tabactivate')
+	$(this).addClass('tabactivate')
 	$(".instphoto").slideUp();
 	$(".inst1").slideDown();	
 	});
 	$("#dynamicinstructions").on('click','#inst2',function(){
+	$('.booklet').removeClass('tabactivate')
+	$(this).addClass('tabactivate')
 	$(".instphoto").slideUp();
 	$(".inst2").slideDown();	
 	});
 	$("#dynamicinstructions").on('click','#inst3',function(){
+	$('.booklet').removeClass('tabactivate')
+	$(this).addClass('tabactivate')
 	$(".instphoto").slideUp();
 	$(".inst3").slideDown();	
 	});
 	$("#dynamicinstructions").on('click','#inst4',function(){
+	$('.booklet').removeClass('tabactivate')
+	$(this).addClass('tabactivate')
 	$(".instphoto").slideUp();
 	$(".inst4").slideDown();	
 	});
