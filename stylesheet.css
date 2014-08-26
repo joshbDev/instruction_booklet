@@ -8,6 +8,7 @@
     font-size:1.7em;
         cursor:pointer;
     z-index:3;
+	display: inline-flex;
 }
 .dynamicinstructions{
 	            position:absolute;
@@ -22,3 +23,12 @@
     background-color:#2e3276;
     color: white;
 }
+#plusoption{
+		position:inherit;
+		padding-right:20px;
+		width:10px;
+	}
+#minusoption{display:none;
+	position:inherit;
+		padding-right:20px;
+		width:10px;}

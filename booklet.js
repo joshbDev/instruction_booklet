@@ -1,25 +1,41 @@
 $('document').ready(function(){
 	$("#dynamicinstructions").on('click','#inst1',function(){
-	$('.booklet').removeClass('tabactivate')
-	$(this).addClass('tabactivate')
+	$('.booklet').removeClass('tabactivate');
+	$(this).addClass('tabactivate');
+	$(".minusoption").css("display","none");
+    $(".plusoption").css("display","block");
+	$(this).find(".plusoption").css("display","none")
+	$(this).find(".minusoption").css("display","block")
 	$(".instphoto").slideUp();
 	$(".inst1").slideDown();	
 	});
 	$("#dynamicinstructions").on('click','#inst2',function(){
-	$('.booklet').removeClass('tabactivate')
-	$(this).addClass('tabactivate')
+	$('.booklet').removeClass('tabactivate');
+	$(".minusoption").css("display","none");
+    $(".plusoption").css("display","block");
+	$(this).find(".plusoption").css("display","none")
+	$(this).find(".minusoption").css("display","block")
+	$(this).addClass('tabactivate');
 	$(".instphoto").slideUp();
 	$(".inst2").slideDown();	
 	});
 	$("#dynamicinstructions").on('click','#inst3',function(){
-	$('.booklet').removeClass('tabactivate')
-	$(this).addClass('tabactivate')
+	$('.booklet').removeClass('tabactivate');
+	$(this).addClass('tabactivate');
+	$(".minusoption").css("display","none");
+    $(".plusoption").css("display","block");
+	$(this).find(".plusoption").css("display","none")
+	$(this).find(".minusoption").css("display","block")
 	$(".instphoto").slideUp();
 	$(".inst3").slideDown();	
 	});
 	$("#dynamicinstructions").on('click','#inst4',function(){
 	$('.booklet').removeClass('tabactivate')
-	$(this).addClass('tabactivate')
+	$(this).addClass('tabactivate');
+	$(".minusoption").css("display","none");
+    $(".plusoption").css("display","block");
+	$(this).find(".plusoption").css("display","none");
+	$(this).find(".minusoption").css("display","block");
 	$(".instphoto").slideUp();
 	$(".inst4").slideDown();	
 	});
