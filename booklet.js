@@ -1,6 +1,18 @@
 $('document').ready(function(){
 	$("#dynamicinstructions").on('click','#inst1',function(){
-	$("#instphoto").slideUp();
+	$(".instphoto").slideUp();
 	$(".inst1").slideDown();	
+	});
+	$("#dynamicinstructions").on('click','#inst2',function(){
+	$(".instphoto").slideUp();
+	$(".inst2").slideDown();	
+	});
+	$("#dynamicinstructions").on('click','#inst3',function(){
+	$(".instphoto").slideUp();
+	$(".inst3").slideDown();	
+	});
+	$("#dynamicinstructions").on('click','#inst4',function(){
+	$(".instphoto").slideUp();
+	$(".inst4").slideDown();	
 	});
 });
